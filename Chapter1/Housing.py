@@ -11,6 +11,8 @@ from sklearn.impute import SimpleImputer
 from sklearn.preprocessing import LabelEncoder
 from sklearn.preprocessing import OneHotEncoder
 from sklearn.preprocessing import LabelBinarizer
+from sklearn.preprocessing import StandardScaler
+from sklearn.pipeline import Pipeline
 from sklearn.base import BaseEstimator, TransformerMixin
 from pandas.plotting import scatter_matrix
 
@@ -162,6 +164,12 @@ class CombinedAttributesAdder(BaseEstimator, TransformerMixin):
 
 attr_adder = CombinedAttributesAdder(add_bedrooms_per_room=False)
 housing_extra_attribs = attr_adder.transform(housing.values)
+
+num_pipeline = Pipeline([('imputer', SimpleImputer(strategy="median")),
+                         ('attribs_adder', CombinedAttributesAdder()),
+                         ('std_scaler', StandardScaler())
+                         ])
+housing_num_tr = num_pipeline.fit_transform(housing_num)
 
 
 
