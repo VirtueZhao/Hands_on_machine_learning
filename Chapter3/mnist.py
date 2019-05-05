@@ -8,6 +8,7 @@ from sklearn.base import BaseEstimator
 from sklearn.metrics import confusion_matrix
 from sklearn.metrics import precision_score, recall_score
 from sklearn.metrics import f1_score
+from sklearn.metrics import precision_recall_curve
 import matplotlib
 import matplotlib.pyplot as plt
 import numpy as np
@@ -35,7 +36,7 @@ y_test_5 = (y_test == 5)
 sgd_clf = SGDClassifier(random_state=42)
 sgd_clf.fit(X_train, y_train_5)
 
-print(sgd_clf.predict([some_digit]))
+# print(sgd_clf.predict([some_digit]))
 
 # skfolds = StratifiedKFold(n_splits=3, random_state=42)
 #
@@ -69,4 +70,34 @@ y_train_pred = cross_val_predict(sgd_clf, X_train, y_train_5, cv=3)
 # print(confusion_matrix(y_train_5, y_train_pred))
 # print(precision_score(y_train_5, y_train_pred))
 # print(recall_score(y_train_5, y_train_pred))
-print(f1_score(y_train_5, y_train_pred))
+# print(f1_score(y_train_5, y_train_pred))
+
+y_scores = sgd_clf.decision_function([some_digit])
+print(y_scores)
+threshold = 0
+y_some_digit_pred = (y_scores > threshold)
+# print(y_some_digit_pred)
+threshold = 200000
+y_some_digit_pred = (y_scores > threshold)
+# print(y_some_digit_pred)
+
+y_scores = cross_val_predict(sgd_clf, X_train, y_train_5, cv=3, method="decision_function")
+# print(y_scores)
+precisions, recalls, thresholds = precision_recall_curve(y_train_5, y_scores)
+
+
+def plot_precision_recall_vs_threshold(precisions, recalls, thresholds):
+    plt.plot(thresholds, precisions[:-1], "b--", label="Precision")
+    plt.plot(thresholds, recalls[:-1], "g-", label="Recall")
+    plt.xlabel("Threshold")
+    plt.legend(loc="upper left")
+    plt.ylim([0,1])
+
+
+# plot_precision_recall_vs_threshold(precisions, recalls, thresholds)
+# plt.show()
+
+y_train_pred_90 = (y_scores > 70000)
+print(y_train_pred_90)
+print(precision_score(y_train_5, y_train_pred_90))
+print(recall_score(y_train_5, y_train_pred_90))
