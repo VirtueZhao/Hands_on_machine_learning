@@ -2,8 +2,12 @@ from sklearn.datasets import fetch_mldata
 from sklearn.linear_model import SGDClassifier
 from sklearn.model_selection import StratifiedKFold
 from sklearn.model_selection import cross_val_score
+from sklearn.model_selection import cross_val_predict
 from sklearn.base import clone
 from sklearn.base import BaseEstimator
+from sklearn.metrics import confusion_matrix
+from sklearn.metrics import precision_score, recall_score
+from sklearn.metrics import f1_score
 import matplotlib
 import matplotlib.pyplot as plt
 import numpy as np
@@ -29,7 +33,7 @@ y_train_5 = (y_train == 5)
 y_test_5 = (y_test == 5)
 
 sgd_clf = SGDClassifier(random_state=42)
-sgd_clf.fit(X_train,y_train_5)
+sgd_clf.fit(X_train, y_train_5)
 
 print(sgd_clf.predict([some_digit]))
 
@@ -59,4 +63,10 @@ class Never5Classfier(BaseEstimator):
 
 
 never_5_clf = Never5Classfier()
-print(cross_val_score(never_5_clf, X_train, y_train_5, cv=3, scoring="accuracy"))
+# print(cross_val_score(never_5_clf, X_train, y_train_5, cv=3, scoring="accuracy"))
+
+y_train_pred = cross_val_predict(sgd_clf, X_train, y_train_5, cv=3)
+# print(confusion_matrix(y_train_5, y_train_pred))
+# print(precision_score(y_train_5, y_train_pred))
+# print(recall_score(y_train_5, y_train_pred))
+print(f1_score(y_train_5, y_train_pred))

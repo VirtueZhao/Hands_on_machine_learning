@@ -19,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Chapter3/mnist.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="61" column="81" selection-start-line="61" selection-start-column="81" selection-end-line="61" selection-end-column="81" />
+            <state relative-caret-position="349">
+              <caret line="71" column="38" selection-start-line="71" selection-start-column="38" selection-end-line="71" selection-end-column="38" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -55,7 +55,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="100" />
     <option name="y" value="30" />
     <option name="width" value="1750" />
@@ -233,23 +233,23 @@
       <workItem from="1556657200626" duration="8183000" />
       <workItem from="1556782190832" duration="12625000" />
       <workItem from="1556830725173" duration="8277000" />
-      <workItem from="1556924646565" duration="10720000" />
+      <workItem from="1556924646565" duration="15192000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76399000" />
+    <option name="totallyTimeSpent" value="80871000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14343163" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14343163" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.91219836" visible="true" weight="0.296034" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.91219836" visible="true" weight="0.296034" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -275,7 +275,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Hands_on_machine_learning$Housing2.coverage" NAME="Housing2 Coverage Results" MODIFIED="1556926341869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter1" />
     <SUITE FILE_PATH="coverage/Hands_on_machine_learning$Housing.coverage" NAME="Housing Coverage Results" MODIFIED="1556789455647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter1" />
-    <SUITE FILE_PATH="coverage/Hands_on_machine_learning$mnist.coverage" NAME="mnist Coverage Results" MODIFIED="1556951203004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter3" />
+    <SUITE FILE_PATH="coverage/Hands_on_machine_learning$mnist.coverage" NAME="mnist Coverage Results" MODIFIED="1557023437292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter3" />
     <SUITE FILE_PATH="coverage/Hands_on_machine_learning$Example_1_1.coverage" NAME="Example_1_1 Coverage Results" MODIFIED="1556274601107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter1" />
   </component>
   <component name="editorHistoryManager">
@@ -318,8 +318,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Chapter3/mnist.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="61" column="81" selection-start-line="61" selection-start-column="81" selection-end-line="61" selection-end-column="81" />
+        <state relative-caret-position="349">
+          <caret line="71" column="38" selection-start-line="71" selection-start-column="38" selection-end-line="71" selection-end-column="38" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
