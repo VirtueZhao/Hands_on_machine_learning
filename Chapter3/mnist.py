@@ -9,6 +9,9 @@ from sklearn.metrics import confusion_matrix
 from sklearn.metrics import precision_score, recall_score
 from sklearn.metrics import f1_score
 from sklearn.metrics import precision_recall_curve
+from sklearn.metrics import roc_curve
+from sklearn.metrics import roc_auc_score
+from sklearn.ensemble import RandomForestClassifier
 import matplotlib
 import matplotlib.pyplot as plt
 import numpy as np
@@ -97,7 +100,43 @@ def plot_precision_recall_vs_threshold(precisions, recalls, thresholds):
 # plot_precision_recall_vs_threshold(precisions, recalls, thresholds)
 # plt.show()
 
-y_train_pred_90 = (y_scores > 70000)
-print(y_train_pred_90)
-print(precision_score(y_train_5, y_train_pred_90))
-print(recall_score(y_train_5, y_train_pred_90))
+# y_train_pred_90 = (y_scores > 70000)
+# print(y_train_pred_90)
+# print(precision_score(y_train_5, y_train_pred_90))
+# print(recall_score(y_train_5, y_train_pred_90))
+
+fpr, tpr, thresholds = roc_curve(y_train_5, y_scores)
+
+
+def plot_roc_curve(fpr, tpr, label=None):
+    plt.plot(fpr, tpr, linewidth=2, label=label)
+    plt.plot([0, 1], [0, 1], 'k--')
+    plt.axis([0, 1, 0, 1])
+    plt.xlabel("False Positive Rate")
+    plt.ylabel("True Positive Rate")
+
+
+# plot_roc_curve(fpr, tpr)
+# plt.show()
+
+# print(roc_auc_score(y_train_5, y_scores))
+
+forest_clf = RandomForestClassifier(random_state=42)
+y_probas_forest = cross_val_predict(forest_clf, X_train, y_train_5, cv=3, method="predict_proba")
+y_scores_forest = y_probas_forest[:, 1]
+fpr_forest, tpr_forest, thresholds_forest = roc_curve(y_train_5, y_scores_forest)
+
+# plt.plot(fpr, tpr, "b:", label="SGD")
+# plot_roc_curve(fpr_forest, tpr_forest, "Random Forest")
+# plt.legend(loc="lower right")
+# plt.show()
+# print(roc_auc_score(y_train_5, y_scores_forest))
+# print(precision_score(y_train_5, y_train_pred))
+# print(recall_score(y_train_5, y_train_pred))
+
+sgd_clf.fit(X_train, y_train)
+print(sgd_clf.predict([some_digit]))
+some_digit_scores = sgd_clf.decision_function([some_digit])
+print(some_digit_scores)
+print(np.argmax(some_digit_scores))
+print(sgd_clf.classes_[5])
