@@ -14,6 +14,7 @@ from sklearn.metrics import roc_curve
 from sklearn.metrics import roc_auc_score
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.multiclass import OneVsOneClassifier
+from sklearn.neighbors import KNeighborsClassifier
 import matplotlib
 import matplotlib.pyplot as plt
 import numpy as np
@@ -170,4 +171,11 @@ conf_mx = confusion_matrix(y_train, y_train_pred)
 # plt.matshow(norm_conf_mx, cmap=plt.cm.gray)
 # plt.show()
 
+y_train_large = (y_train >= 7)
+y_train_odd = (y_train % 2 == 1)
+y_multilabel = np.c_[y_train_large, y_train_odd]
 
+knn_clf = KNeighborsClassifier()
+knn_clf.fit(X_train, y_multilabel)
+
+print(knn_clf.predict([some_digit]))
