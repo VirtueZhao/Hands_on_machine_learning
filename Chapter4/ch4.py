@@ -1,6 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.linear_model import LinearRegression
+from sklearn.linear_model import SGDRegressor
 
 X = 2 * np.random.rand(100, 1)
 y = 4 + 3 * X + np.random.randn(100, 1)
@@ -44,9 +45,9 @@ for iteration in range(n_iterations):
 n_epochs = 50
 t0, t1 = 5, 50
 
-print(theta_best)
-print([lin_reg.intercept_,lin_reg.coef_])
-print(theta)
+# print(theta_best)
+# print([lin_reg.intercept_,lin_reg.coef_])
+# print(theta)
 
 
 def learning_schedule(t):
@@ -64,7 +65,10 @@ for epoch in range(n_epochs):
         eta = learning_schedule(epoch * m + i)
         theta = theta - eta * gradients
 
-print(theta)
+# print(theta)
+sgd_reg = SGDRegressor(max_iter=50, penalty=None, eta0=0.1)
+sgd_reg.fit(X, y.ravel())
+print(sgd_reg.intercept_, sgd_reg.coef_)
 
 
 
