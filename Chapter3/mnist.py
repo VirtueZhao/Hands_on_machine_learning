@@ -18,6 +18,7 @@ from sklearn.neighbors import KNeighborsClassifier
 import matplotlib
 import matplotlib.pyplot as plt
 import numpy as np
+import random as rnd
 
 mnist = fetch_mldata('MNIST original')
 # print(mnist)
@@ -178,4 +179,10 @@ y_multilabel = np.c_[y_train_large, y_train_odd]
 knn_clf = KNeighborsClassifier()
 knn_clf.fit(X_train, y_multilabel)
 
-print(knn_clf.predict([some_digit]))
+# print(knn_clf.predict([some_digit]))
+
+# y_train_knn_pred = cross_val_predict(knn_clf, X_train, y_train, cv=3)
+# print(f1_score(y_train, y_train_knn_pred, average="macro"))
+
+noise = rnd.randint(0, 100, (len(X_train), 784))
+noise = rnd.randint(0, 100, (len(X_test), 784))

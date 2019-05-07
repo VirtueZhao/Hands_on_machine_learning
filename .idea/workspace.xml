@@ -19,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Chapter3/mnist.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="180" column="36" selection-start-line="180" selection-start-column="36" selection-end-line="180" selection-end-column="36" />
+            <state relative-caret-position="242">
+              <caret line="188" selection-start-line="188" selection-end-line="188" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -56,7 +56,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="100" />
     <option name="y" value="30" />
     <option name="width" value="1750" />
@@ -239,12 +239,12 @@
       <workItem from="1556657200626" duration="8183000" />
       <workItem from="1556782190832" duration="12625000" />
       <workItem from="1556830725173" duration="8277000" />
-      <workItem from="1556924646565" duration="33154000" />
+      <workItem from="1556924646565" duration="35667000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98833000" />
+    <option name="totallyTimeSpent" value="101346000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -281,7 +281,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Hands_on_machine_learning$Housing2.coverage" NAME="Housing2 Coverage Results" MODIFIED="1556926341869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter1" />
     <SUITE FILE_PATH="coverage/Hands_on_machine_learning$Housing.coverage" NAME="Housing Coverage Results" MODIFIED="1556789455647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter1" />
-    <SUITE FILE_PATH="coverage/Hands_on_machine_learning$mnist.coverage" NAME="mnist Coverage Results" MODIFIED="1557138929080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter3" />
+    <SUITE FILE_PATH="coverage/Hands_on_machine_learning$mnist.coverage" NAME="mnist Coverage Results" MODIFIED="1557139149930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter3" />
     <SUITE FILE_PATH="coverage/Hands_on_machine_learning$Example_1_1.coverage" NAME="Example_1_1 Coverage Results" MODIFIED="1556274601107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter1" />
   </component>
   <component name="editorHistoryManager">
@@ -324,8 +324,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Chapter3/mnist.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="180" column="36" selection-start-line="180" selection-start-column="36" selection-end-line="180" selection-end-column="36" />
+        <state relative-caret-position="242">
+          <caret line="188" selection-start-line="188" selection-end-line="188" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
