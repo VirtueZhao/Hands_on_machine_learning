@@ -4,6 +4,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn.linear_model import SGDRegressor
 from sklearn.preprocessing import PolynomialFeatures
+from sklearn.pipeline import Pipeline
 from sklearn.metrics import mean_squared_error
 
 # X = 2 * np.random.rand(100, 1)
@@ -102,9 +103,15 @@ def plot_learning_curves(model, X, y):
     plt.show()
 
 
-lin_reg = LinearRegression()
-plot_learning_curves(lin_reg, X, y)
+# lin_reg = LinearRegression()
+# plot_learning_curves(lin_reg, X, y)
 
+# polynomial_regression = Pipeline((
+#     ("poly_features", PolynomialFeatures(degree=10, include_bias=False)),
+#     ("sgd_reg", LinearRegression()),
+# ))
+#
+# plot_learning_curves(polynomial_regression, X, y)
 
 
 
