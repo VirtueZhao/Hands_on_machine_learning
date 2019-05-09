@@ -3,6 +3,8 @@ import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn.linear_model import SGDRegressor
+from sklearn.linear_model import Ridge
+from sklearn.linear_model import Lasso
 from sklearn.preprocessing import PolynomialFeatures
 from sklearn.pipeline import Pipeline
 from sklearn.metrics import mean_squared_error
@@ -113,5 +115,19 @@ def plot_learning_curves(model, X, y):
 #
 # plot_learning_curves(polynomial_regression, X, y)
 
+ridge_reg = Ridge(alpha=1, solver="cholesky")
+ridge_reg.fit(X, y)
+print(ridge_reg.predict([[1.5]]))
 
+sgd_reg = SGDRegressor(penalty="l2")
+sgd_reg.fit(X, y.ravel())
+print(sgd_reg.predict([[1.5]]))
+
+lasso_reg = Lasso(alpha=0.1)
+lasso_reg.fit(X, y)
+print(lasso_reg.predict([[1.5]]))
+
+sgd_reg = SGDRegressor(penalty="l1")
+sgd_reg.fit(X, y.ravel())
+print(sgd_reg.predict([[1.5]]))
 
