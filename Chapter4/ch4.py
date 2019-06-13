@@ -132,9 +132,9 @@ def plot_learning_curves(model, X, y):
 # sgd_reg.fit(X, y.ravel())
 # print(sgd_reg.predict([[1.5]]))
 
-elastic_net = ElasticNet(alpha=0.1, l1_ratio=0.5)
-elastic_net.fit(X, y)
-print(elastic_net.predict([[1.5]]))
+# elastic_net = ElasticNet(alpha=0.1, l1_ratio=0.5)
+# elastic_net.fit(X, y)
+# print(elastic_net.predict([[1.5]]))
 
 
 
