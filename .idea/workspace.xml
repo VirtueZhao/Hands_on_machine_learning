@@ -6,6 +6,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29941370-1ad7-466d-8469-8dc3f5e94e2f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Chapter5/ch5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Chapter4/ch4.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter4/ch4.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,13 +16,27 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Chapter4/ch4.py">
+        <entry file="file://$PROJECT_DIR$/Chapter5/ch5.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="136" column="37" lean-forward="true" selection-start-line="136" selection-start-column="37" selection-end-line="136" selection-end-column="37" />
+            <state relative-caret-position="162">
+              <caret line="42" column="35" lean-forward="true" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -54,10 +70,11 @@
         <option value="$PROJECT_DIR$/Chapter1/Housing2.py" />
         <option value="$PROJECT_DIR$/Chapter3/mnist.py" />
         <option value="$PROJECT_DIR$/Chapter4/ch4.py" />
+        <option value="$PROJECT_DIR$/Chapter5/ch5.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-75" />
     <option name="y" value="70" />
     <option name="width" value="1750" />
@@ -76,11 +93,6 @@
             <path>
               <item name="Hands_on_machine_learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="Hands_on_machine_learning" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hands_on_machine_learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hands_on_machine_learning" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter4" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -116,29 +128,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ch4">
-    <configuration name="Example_1_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Hands_on_machine_learning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter1/Example_1_1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.ch5">
     <configuration name="Housing" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Hands_on_machine_learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -205,6 +195,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="ch5" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Hands_on_machine_learning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter5" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter5/ch5.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="mnist" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Hands_on_machine_learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -229,11 +241,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ch5" />
         <item itemvalue="Python.ch4" />
         <item itemvalue="Python.mnist" />
         <item itemvalue="Python.Housing2" />
         <item itemvalue="Python.Housing" />
-        <item itemvalue="Python.Example_1_1" />
       </list>
     </recent_temporary>
   </component>
@@ -262,39 +274,49 @@
       <workItem from="1557433308687" duration="216000" />
       <workItem from="1557433597530" duration="4189000" />
       <workItem from="1557561601840" duration="26000" />
-      <workItem from="1560413710650" duration="1959000" />
+      <workItem from="1560413710650" duration="2019000" />
+      <workItem from="1560733360955" duration="71000" />
+      <workItem from="1560733574490" duration="3964000" />
+      <workItem from="1562200521962" duration="126000" />
+      <workItem from="1562200702914" duration="2358000" />
+      <workItem from="1562230230108" duration="50000" />
+      <workItem from="1562296493489" duration="2940000" />
+      <workItem from="1562375721599" duration="2069000" />
+      <workItem from="1562386659212" duration="1082000" />
+      <workItem from="1562543388615" duration="2473000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121746000" />
+    <option name="totallyTimeSpent" value="136939000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13605899" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13739946" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8585791" visible="true" weight="0.34560907" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7386059" visible="true" weight="0.34560907" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49932975" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.14142092" side_tool="true" visible="true" weight="0.34560907" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.2613941" side_tool="true" visible="true" weight="0.34560907" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.29088473" />
-      <window_info anchor="right" id="R Graphics" order="4" />
-      <window_info anchor="right" id="R Packages" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.2613941" />
+      <window_info anchor="right" id="R Graphics" order="4" weight="0.3297587" />
+      <window_info anchor="right" id="R Packages" order="5" weight="0.3297587" />
+      <window_info anchor="right" id="Database" order="6" weight="0.3297587" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -304,7 +326,8 @@
     <SUITE FILE_PATH="coverage/Hands_on_machine_learning$Housing2.coverage" NAME="Housing2 Coverage Results" MODIFIED="1556926341869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter1" />
     <SUITE FILE_PATH="coverage/Hands_on_machine_learning$Housing.coverage" NAME="Housing Coverage Results" MODIFIED="1556789455647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter1" />
     <SUITE FILE_PATH="coverage/Hands_on_machine_learning$mnist.coverage" NAME="mnist Coverage Results" MODIFIED="1557199027639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter3" />
-    <SUITE FILE_PATH="coverage/Hands_on_machine_learning$ch4.coverage" NAME="ch4 Coverage Results" MODIFIED="1560416588517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter4" />
+    <SUITE FILE_PATH="coverage/Hands_on_machine_learning$ch5.coverage" NAME="ch5 Coverage Results" MODIFIED="1562549284252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter5" />
+    <SUITE FILE_PATH="coverage/Hands_on_machine_learning$ch4.coverage" NAME="ch4 Coverage Results" MODIFIED="1562297736151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter4" />
     <SUITE FILE_PATH="coverage/Hands_on_machine_learning$Example_1_1.coverage" NAME="Example_1_1 Coverage Results" MODIFIED="1556274601107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter1" />
   </component>
   <component name="editorHistoryManager">
@@ -357,8 +380,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Chapter4/ch4.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="136" column="37" lean-forward="true" selection-start-line="136" selection-start-column="37" selection-end-line="136" selection-end-column="37" />
+        <state relative-caret-position="295">
+          <caret line="165" lean-forward="true" selection-start-line="165" selection-end-line="165" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter5/ch5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="42" column="35" lean-forward="true" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>

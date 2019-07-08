@@ -6,9 +6,12 @@ from sklearn.linear_model import SGDRegressor
 from sklearn.linear_model import Ridge
 from sklearn.linear_model import Lasso
 from sklearn.linear_model import ElasticNet
+from sklearn.linear_model import LogisticRegression
 from sklearn.preprocessing import PolynomialFeatures
 from sklearn.pipeline import Pipeline
 from sklearn.metrics import mean_squared_error
+from sklearn.base import clone
+from sklearn import datasets
 
 # X = 2 * np.random.rand(100, 1)
 # y = 4 + 3 * X + np.random.randn(100, 1)
@@ -136,5 +139,27 @@ def plot_learning_curves(model, X, y):
 # elastic_net.fit(X, y)
 # print(elastic_net.predict([[1.5]]))
 
+iris = datasets.load_iris()
+# print(list(iris.keys()))
+# X = iris["data"][:,3:]
+# y = (iris["target"] == 2).astype(np.int)
+#
+# log_reg = LogisticRegression()
+# log_reg.fit(X, y)
 
+# X_new = np.linspace(0, 3, 1000).reshape(-1, 1)
+# y_proba = log_reg.predict_proba(X_new)
+# plt.plot(X_new, y_proba[:, 1], "g--", label="Iris_Virginica")
+# plt.plot(X_new, y_proba[:, 0], "b--", label="Not Iris-Virginica")
+# plt.show()
 
+# print(log_reg.predict([[1.7],[1.5]]))
+
+X = iris["data"][:,(2,3)]
+y = iris["target"]
+
+softmax_reg = LogisticRegression(multi_class="multinomial", solver="lbfgs", C=10)
+softmax_reg.fit(X,y)
+
+print(softmax_reg.predict([[5,2]]))
+print(softmax_reg.predict_proba([[5,2]]))
