@@ -5,6 +5,7 @@ from tensorflow.contrib.layers import fully_connected
 n_steps = 28
 n_inputs = 28
 n_neurons = 150
+n_layers = 3
 n_outputs = 10
 
 learning_rate = 0.001
@@ -13,6 +14,11 @@ X = tf.compat.v1.placeholder(tf.float32, [None, n_steps, n_inputs])
 y = tf.compat.v1.placeholder(tf.int32, [None])
 
 basic_cell = tf.contrib.rnn.BasicRNNCell(num_units=n_neurons)
+
+keep_prob = 0.5
+cell_drop = tf.contrib.rnn.DropoutWrapper(basic_cell, input_keep_prob=keep_prob)
+
+multi_layer_cell = tf.contrib.rnn.MultiRNNCell([basic_cell] * n_layers)
 outputs, states = tf.nn.dynamic_rnn(basic_cell, X, dtype=tf.float32)
 
 logits = fully_connected(states, n_outputs, activation_fn=None)
