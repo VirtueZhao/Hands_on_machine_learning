@@ -8,6 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29941370-1ad7-466d-8469-8dc3f5e94e2f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Chapter15/variational_autoencoder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Chapter15/Stacked_Autoencoders.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter15/Stacked_Autoencoders.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,20 +37,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Chapter15/ch15.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Chapter15/Stacked_Autoencoders.py">
+        <entry file="file://$PROJECT_DIR$/Chapter15/variational_autoencoder.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="45" column="55" selection-start-line="45" selection-start-column="55" selection-end-line="45" selection-end-column="55" />
+            <state relative-caret-position="236">
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -57,10 +50,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Chapter14/mnist.py">
+        <entry file="file://$PROJECT_DIR$/Chapter15/Stacked_Autoencoders.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="12" />
+            <state relative-caret-position="1653">
+              <caret line="87" column="39" lean-forward="true" selection-start-line="87" selection-start-column="39" selection-end-line="87" selection-end-column="39" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -110,14 +103,15 @@
         <option value="$PROJECT_DIR$/Chapter14/ch14_2.py" />
         <option value="$PROJECT_DIR$/Chapter15/ch15.py" />
         <option value="$PROJECT_DIR$/Chapter15/Stacked_Autoencoders.py" />
+        <option value="$PROJECT_DIR$/Chapter15/variational_autoencoder.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="811" />
-    <option name="y" value="117" />
-    <option name="width" value="1100" />
-    <option name="height" value="1034" />
+    <option name="x" value="331" />
+    <option name="y" value="237" />
+    <option name="width" value="1148" />
+    <option name="height" value="828" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -127,7 +121,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -138,17 +131,13 @@
             <path>
               <item name="Hands_on_machine_learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="Hands_on_machine_learning" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter14" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hands_on_machine_learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hands_on_machine_learning" type="462c0819:PsiDirectoryNode" />
               <item name="Chapter15" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -366,18 +355,18 @@
       <workItem from="1563926897655" duration="8208000" />
       <workItem from="1564209592853" duration="241000" />
       <workItem from="1564264259922" duration="1486000" />
-      <workItem from="1564450880056" duration="3777000" />
+      <workItem from="1564450880056" duration="7158000" />
+      <workItem from="1564539851611" duration="1879000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="209750000" />
+    <option name="totallyTimeSpent" value="215010000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="649" y="94" width="880" height="827" extended-state="0" />
-    <editor active="true" />
+    <frame x="265" y="190" width="918" height="662" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49885583" visible="true" weight="0.0729927" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49885583" visible="true" weight="0.25348836" />
       <window_info id="Structure" order="1" sideWeight="0.5011442" side_tool="true" weight="0.16951916" />
       <window_info id="Favorites" order="2" sideWeight="0.5011442" side_tool="true" weight="0.16951916" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -388,7 +377,7 @@
       <window_info anchor="bottom" id="TODO" order="5" />
       <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.27479893" side_tool="true" visible="true" weight="0.38273382" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.27479893" side_tool="true" visible="true" weight="0.38301888" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.4995925" weight="0.3297546" />
       <window_info anchor="bottom" id="Python Console" order="11" sideWeight="0.71514744" weight="0.3286119" />
@@ -396,7 +385,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.13017032" />
+      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.09767442" />
       <window_info anchor="right" id="R Graphics" order="4" weight="0.3297587" />
       <window_info anchor="right" id="R Packages" order="5" weight="0.3297587" />
       <window_info anchor="right" id="Database" order="6" weight="0.3297587" />
@@ -607,13 +596,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter15/ch15.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter14/mnist.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -624,10 +606,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter15/ch15.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter15/Stacked_Autoencoders.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="45" column="55" selection-start-line="45" selection-start-column="55" selection-end-line="45" selection-end-column="55" />
+        <state relative-caret-position="1653">
+          <caret line="87" column="39" lean-forward="true" selection-start-line="87" selection-start-column="39" selection-end-line="87" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter15/variational_autoencoder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
